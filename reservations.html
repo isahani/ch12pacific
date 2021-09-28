@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name= "discription" content="Pacific Trails Resort provides lodging with the view of pacific ocean.It provides Hiking,Kayaking,Bird watching">
+</head>
+<body>
+<div id="wrapper">
+<header>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="pacific.css">
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort:: Reservations</title>
+    <span class="resort">
+       <a href="index.html"><h1>Pacific Trails Resort</h1></a>
+    </span>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+    </ul>
+</nav>
+
+    <main>
+<h2>Reservations at Pacific Trails</h2>
+<h3>Contact us today!</h3>
+    <p>Required fields are marked with an asterisk *.</p>
+    <form method="post"
+          action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="myFName">* First Name:</label>
+        <input type="text" name="myFName" id="myFName" required>
+        <label for="myLName">* Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required>
+        <label for="myEmail">* E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail" required>
+        <label for="Telephone">Phone:</label>
+        <input type="tel" name="Telephone" id="Telephone" maxlength="12">
+        <label for="MyDate">Arrival Date:</label>
+        <input type="date" name="MyDate" id="MyDate">
+        <label for="nights">Nights:</label>
+        <input type="number" name="nights" id="nights" min="1" max="14">
+        <label for="MyCommets">* Comments:</label>
+        <textarea name="MyComments" id="MyCommets" rows="2" cols="30" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+        <div id="contact">
+    <span class="resort"> Pacific Trails resort<br></span>
+    12010 Pacific trails Roads<br>
+    Zephyr, CA 95555<br>
+    <br>
+    888-555-5555
+</div>
+</main>
+    <footer>
+    Copyright &copy; 2020 pacific trails Resort<br>
+    <a href="mailto:ismeet@sahani.com">ismeet@sahani.com</a><br>
+        <a href="privacy.html">Privacy Policy</a>
+</footer>
+</div>
+</body>
+</html>
